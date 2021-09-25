@@ -1,0 +1,91 @@
+// :root {
+//   --main-text-color: green;
+//   --main-bg-color: white;
+// }
+
+// .txt {
+//   color: var(--main-text-color, blue);
+//   background-color: var(--main-bg-color, red);
+//   padding: 15px;
+// }
+
+$main-text-color: green;
+$main-bg-color: white;
+
+$main-font-family: "Arial", sans-serif;
+
+// .txt {
+//   color: $main-text-color;
+//   background-color: $main-bg-color;
+//   font-family: $main-font-family;
+// }
+
+// .header {
+//   .txt {
+//     color: green;
+//   }
+
+//   strong {
+//     font-size: 30px;
+//   }
+
+//   a {
+//     color: black;
+//   }
+// }
+
+// .txt {
+//   strong {
+//     font-size: 45px;
+//   }
+// }
+
+// .header {
+//   background-color: yellow;
+
+//   &-txt {
+//     color: blue;
+//   }
+
+//   &-strong {
+//     color: green;
+//   }
+// }
+
+// a {
+//   font-size: 30px;
+//   text-decoration: none;
+
+//   &:hover {
+//     text-decoration: underline;
+//   }
+// }
+
+// @mixin title-text($font-family: "Arial", $font-size: 35px, $color: red) {
+//   font-family: $font-family;
+//   font-size: $font-size;
+//   font-weight: bold;
+//   color: $color;
+// }
+
+// h1 {
+//   @include title-text("Roboto", 45px, blue);
+//   margin: 20px;
+//   background: #000;
+// }
+
+// .block {
+//   width: (100% / 3) + 10;
+//   width: (100% * 2 / 3);
+//   width: (100% + 3);
+//   width: (100% - 3);
+// }
+
+// .block {
+//   background-color: darken(#fff, 90%);
+//   background-color: lighten(#000, 80%);
+//   background-color: transparentize(#000000, 0.7);
+// }
+
+@import "blocks/header";
+@import "blocks/footer";
